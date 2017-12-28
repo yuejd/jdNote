@@ -6,4 +6,4 @@ make
 sudo checkinstall 
 dpkg -l | grep vim
 vim --version
-
+sudo apt-mark hold vim # unhold to release
